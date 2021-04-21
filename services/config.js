@@ -6,7 +6,7 @@ const PORT_DB= 27017;
 
 module.export = {
     API_VERSION,
-    IP_SERVER
+    IP_SERVER,
     PORT_DB
 
 };

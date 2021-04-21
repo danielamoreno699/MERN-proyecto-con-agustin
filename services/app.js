@@ -1,7 +1,7 @@
 const express = requiere("express");
 const bodyParser = requiere("body-parser");
 
-const app = express(;)
+const app = express();
 const {API_VERSION} = requiere ('./config.js')
 
 
