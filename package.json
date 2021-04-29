@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "backendtest",
   "main": "index.js",
+  "type": "commonjs",
   "author": "daniela moreno",
   "license": "MIT",
   "dependencies": {

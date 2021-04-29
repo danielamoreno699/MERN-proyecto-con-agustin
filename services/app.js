@@ -1,13 +1,15 @@
-const express = requiere("express");
-const bodyParser = requiere("body-parser");
+
+
+const express =  require("express");
+const bodyParser = require("body-parser");
 
 const app = express();
-const {API_VERSION} = requiere ('./config.js')
+const {API_VERSION} = require ('./config')
 
 
 app.use(bodyParser.urlencoded ({ extended: false})) ;
-app.user(bodyParser.json());
+app.use(bodyParser.json());
 
 
-module.exports = app;
+module.export = app;
 
